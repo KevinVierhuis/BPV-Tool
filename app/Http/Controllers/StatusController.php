@@ -26,12 +26,12 @@ class StatusController extends Controller
 
     public function update(Request $request, $studentId)
     {
-        // Update logic here
+        // Update informatie hier en sla het op in de database
         $student = Student::findOrFail($studentId);
         $student->status = $request->status;
         $student->save();
 
-        // Redirect back to docentzaken or another page
+        // Redirect teryg naar docentzaken of een andere pagina
         return redirect()->route('docentzaken');
     }
 }

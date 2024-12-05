@@ -1,9 +1,11 @@
 <?php
 
+// Gebruik de Student model in deze seeder file
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+// Maak de students tabel aan
 class CreateStudentsTable extends Migration
 {
     public function up()
@@ -16,6 +18,8 @@ class CreateStudentsTable extends Migration
         });
     }
 
+
+    // Verwijder de students tabel
     public function down()
     {
         Schema::dropIfExists('students');

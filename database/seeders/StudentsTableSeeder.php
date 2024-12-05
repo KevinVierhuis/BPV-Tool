@@ -10,9 +10,9 @@ class StudentsTableSeeder extends Seeder
     public function run()
     {
         Student::create([
-            'name' => 'Leerling 1',
+            'name' => 'Student 1',
             'status' => 'In Behandeling',
         ]);
-        // Add more students as needed
+        // Voeg meer studenten toe als nodig
     }
 }

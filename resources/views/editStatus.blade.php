@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
@@ -42,7 +40,7 @@
             color: #ffffff;
             font-weight: bold;
             position: relative;
-            padding: 0 20px; /* Padding for spacing inside the container */
+            padding: 0 20px; /* Padding voor ruimte binnen de container */
         }
 
         .dot {
@@ -62,10 +60,10 @@
             color: #6C6868; 
             margin-right: 25px;
             margin-left: 25px;
-            cursor: pointer; /* Makes the text clickable */
+            cursor: pointer; /* Maakt de tekst aanklikbaar */
         }   
 
-        /* Remove the underline from links */
+        /* Verwijder de onderstreping van links */
         a {
             text-decoration: none;
         }
@@ -113,36 +111,26 @@
         .file-item .item-label {
             font-weight: bold;
         }
-
+        
+        /* Status stijlen */
         .status {
             font-weight: bold;
-            color: #28a745; /* Green for accepted */
+            color: #28a745; /* Groen voor geaccepteerd */
         }
 
         .status-in-progress {
             font-weight: bold;
-            color: #ffc107; /* Yellow for in progress */
+            color: #ffc107; /* Geel voor in behandeling */
         }
 
         .status-completed {
             font-weight: bold;
-            color: #1d8348; /* Darker green for completed */
+            color: #1d8348; /* Donkerder groen voor afgerond */
         }
 
         .status-rejected {
             font-weight: bold;
-            color: #dc3545; /* Red for rejected */
-        }
-
-        .file-upload-btn {
-            background: linear-gradient(to right, #62AFB8, #7AB361);
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 30px;
-            font-size: 16px;
-            width: 200px;
-            margin-top: 20px;
+            color: #dc3545; /* Rood voor afgekeurd */
         }
 
         .file-item-header {
@@ -153,6 +141,7 @@
             border-bottom: 2px solid #ddd;
         }
 
+        /* Bedrijfsnaam en logo */
         .company-name {
             display: flex;
             align-items: center;
@@ -170,8 +159,8 @@
         }
 
         .status-completed-icon {
-            color: #1d8348; /* Darker green for the icon */
-            margin-right: 8px; /* Space between icon and text */
+            color: #1d8348; 
+            margin-right: 8px; 
         }
 
         .status-button-container {
@@ -212,7 +201,7 @@
 </head>
 <body>
 
-<!-- Header Section -->
+<!-- Header Sectie -->
 <div class="header">
     <div class="stadium">
         <div class="dot"></div>
@@ -221,14 +210,14 @@
     </div>
 </div>
 
-<!-- File Manager Section -->
+<!-- Bestandsbeheer Sectie -->
 <div class="container">
     <div class="file-manager-header">
     </div>
 
-    <!-- File List -->
+    <!-- Bestandslijst -->
     <div class="file-list">
-        <!-- Header Row -->
+        <!-- Header Rij -->
         <div class="file-item-header">
             <div>Naam</div>
             <div>Bedrijf</div>
@@ -237,7 +226,7 @@
             <div>Opleverdatum</div>
         </div>
 
-        <!-- File Items -->
+        <!-- Informatie stages voor student -->
         <div class="file-item">
             <div><a href="#editStatus1" data-bs-toggle="modal" data-bs-target="#editStatusModal1">Stage 1</a></div>
             <div class="company-name"><img src="https://via.placeholder.com/30" alt="Profile Image"><span>Bedrijf A</span></div>
@@ -269,12 +258,12 @@
     </div>
 </div>
 
-<!-- Edit Status Modals -->
+<!-- Modals voor status bewerken -->
 <div class="modal fade" id="editStatusModal1" tabindex="-1" aria-labelledby="editStatusModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel">Edit Status for Student 1</h5>
+                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 1</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -307,7 +296,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel">Edit Status for Student 2</h5>
+                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 2</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -340,7 +329,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel">Edit Status for Student 3</h5>
+                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 3</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -373,7 +362,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel4">Edit Status for Student 4</h5>
+                <h5 class="modal-title" id="editStatusModalLabel4">Status bewerken voor Student 4</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -402,9 +391,6 @@
     </div>
 </div>
 
-<!-- Additional modals for Student 2, 3, and 4 would follow a similar structure as Student 1 modal -->
-
-<!-- Bootstrap JS and dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

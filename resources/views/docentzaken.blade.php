@@ -6,7 +6,7 @@
     <title>Docent Zaken</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome voor icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
@@ -63,10 +63,10 @@
             color: #6C6868; 
             margin-right: 25px;
             margin-left: 25px;
-            cursor: pointer; /* Makes the text clickable */
+            cursor: pointer; /* Maak de tekst aanklikbaar */
         }
 
-        /* Remove the underline from links */
+        /* Verwijder de lijn onder links */
         a {
             text-decoration: none;
         }
@@ -186,14 +186,14 @@
     </div>
 </div>
 
-<!-- File Manager Section -->
+<!-- Informatie student stage -->
 <div class="container">
     <div class="file-manager-header">
     </div>
 
-    <!-- File List -->
+    
     <div class="file-list">
-        <!-- Header Row -->
+        
         <div class="file-item-header">
             <div>Naam</div>
             <div>Bedrijf</div>

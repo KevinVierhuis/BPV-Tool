@@ -18,7 +18,7 @@
             margin: 0;
         }
         .header {
-            margin-top: 20px; /* Space from the top of the page */
+            margin-top: 20px; /* Ruimte voor boven de pagina */
             text-align: center;
         }
         .stadium {
@@ -34,7 +34,7 @@
             color: #6C6868; 
             font-weight: bold;
             position: relative;
-            padding-bottom: 10px; /* Ensure enough space for the dot */
+            padding-bottom: 10px; /* Zorg voor genoeg ruimte tussen de punt en tekst */
         }
         .dot {
             width: 10px;
@@ -42,7 +42,7 @@
             background: #E4DFDF;
             border-radius: 50%;
             position: absolute;
-            bottom: 8px; /* Dot inside and under the text */
+            bottom: 8px; /* Punt in de stadium en onder de tekst */
         }
         .container {
             background: #F5F5F5;
@@ -50,7 +50,7 @@
             padding: 30px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             max-width: 900px;
-            margin-top: 80px; /* Space from the header */
+            margin-top: 80px; /* Ruimte tussen de header */
         }
         .content {
             display: flex;
@@ -67,7 +67,7 @@
             padding: 10px 20px;
             border-radius: 30px;
             font-size: 16px;
-            text-decoration: none; /* Remove underline */
+            text-decoration: none; /* Verwijder onderlijnen */
         }
         .home-btn:hover {
             opacity: 0.9;
@@ -83,7 +83,7 @@
     </style>
 </head>
 <body>
-    <!-- Header Section -->
+
     <div class="header">
         <div class="stadium">
             Home
@@ -103,17 +103,14 @@
                 <p>
                     Wanneer je op de knop hieronder klikt, word je doorgestuurd naar de pagina waar je het document kunt invullen en je zaken kunt bekijken.
                 </p>
-                <!-- Button (Link) -->
                 <a href="/bpv-gegevensblad.blade.php" class="home-btn">BPV-gegevensblad</a>
             </div>
-            <!-- Image -->
             <div class="image-container">
                 <img src="/images/homepaginalogo.png" alt="Homepagina Logo">
             </div>
         </div>
     </div>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

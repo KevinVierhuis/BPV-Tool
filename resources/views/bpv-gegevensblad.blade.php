@@ -56,11 +56,11 @@
         }
 
         .zaken-text {
-            font-size: 20px; /* Same font size */
-            font-weight: bold; /* Same weight */
-            color: #6C6868; /* Same color */
-            text-decoration: none; /* Remove underline */
-            margin-right: 15px; /* Space between the texts */
+            font-size: 20px; 
+            font-weight: bold; 
+            color: #6C6868; 
+            text-decoration: none; 
+            margin-right: 15px; 
             cursor: pointer;
         }
 
@@ -109,16 +109,16 @@
 </head>
 <body>
 
-<!-- Header Section -->
+<!-- Header gedeelte-->
 <div class="header">
     <div class="stadium">
         <div class="zaken-text">BPV Gegevens</div>
         <div class="dot"></div>
-        <a href="{{ route('studentzaken') }}" class="zaken-text">Zaken</a> <!-- Only Zaken is wrapped in a link -->
+        <a href="{{ route('studentzaken') }}" class="zaken-text">Zaken</a> <!-- Only Zaken wrapped in een link -->
     </div>
 </div>
 
-<!-- Form Section -->
+<!-- Form Sectie -->
 <div class="container">
     <form action="/submit" method="POST">
         <!-- Bedrijfsgegevens -->
@@ -175,7 +175,7 @@
             </div>
         </div>
 
-        <!-- Leerling Gegevens -->
+        <!-- Student Gegevens -->
         <div class="form-section">
             <h3>Student Gegevens</h3>
             <div class="gender-buttons" id="leerling-gender-buttons">
@@ -211,6 +211,7 @@
     </form>
 </div>
 
+<!-- JavaScrip knoppen -->
 <script>
     function setupGenderButtons(groupId) {
         const buttons = document.querySelectorAll(`#${groupId} .gender-button`);
