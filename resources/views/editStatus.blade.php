@@ -296,7 +296,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 2</h5>
+                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 1</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -329,7 +329,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 3</h5>
+                <h5 class="modal-title" id="editStatusModalLabel">Status bewerken voor Student 1</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -362,7 +362,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editStatusModalLabel4">Status bewerken voor Student 4</h5>
+                <h5 class="modal-title" id="editStatusModalLabel4">Status bewerken voor Student 1</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
